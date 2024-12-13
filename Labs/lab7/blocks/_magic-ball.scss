@@ -1,0 +1,8 @@
+.magic-ball {
+    margin: 30px auto;
+    font-size: 4em;
+    cursor: pointer;
+    color: #ff0077;
+    text-shadow: 0 0 15px #ff0077, 0 0 30px pink;
+    animation: bounce 1.5s infinite alternate;
+  }

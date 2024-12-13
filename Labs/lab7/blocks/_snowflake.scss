@@ -1,0 +1,9 @@
+#snowflakes .snowflake {
+    position: absolute;
+    top: -10px;
+    color: white;
+    opacity: 0.8;
+    animation-name: fall;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }

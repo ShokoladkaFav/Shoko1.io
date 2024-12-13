@@ -58,7 +58,7 @@ document.getElementById('changeBackgroundButton').addEventListener('click', func
 
 // Кнопка для відображення гіфки Порошенка
 document.getElementById('porshenkoButton').addEventListener('click', function () {
-  const porshenkoGifURL = 'https://cs7.pikabu.ru/post_img/2019/01/07/8/1546869329111352583.gif'; // Пряме посилання на гіфку
+  const porshenkoGifURL = 'https://i.gifer.com/XYFP.gif'; // Пряме посилання на гіфку
   const porshenkoContainer = document.getElementById('porshenkoGifContainer');
 
   // Очищуємо попередній вміст контейнера
