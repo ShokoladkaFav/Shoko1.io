@@ -1,0 +1,64 @@
+/* Загальні стилі */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #eef2f3, #8e9eab);
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Навігаційне посилання */
+li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #0056b3;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+li a:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Заголовки */
+h1 {
+    font-size: 24px;
+    color: #222;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+/* Текст і посилання */
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #004085;
+}
+
+/* Контейнер (можна додати, якщо хочеш ще більше організованості) */
+body > * {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
